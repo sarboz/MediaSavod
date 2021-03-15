@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MediaSavod" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:endColor">@color/white</item>
+        <item name="android:startColor">@color/black</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+
+
+    <style name="TextAppearance1" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:endColor">@color/error_quiz</item>
+        <item name="android:startColor">@color/logoColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance2" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:endColor">@color/currect_quiz</item>
+        <item name="android:startColor">@color/error_quiz</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="MyToolbarStyle" parent="Theme.MediaSavod">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColor">@color/error_quiz</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/ThemeOverlay.MaterialComponents.Toolbar.Primary
+        </item>
+    </style>
+
+
+    <style name="MyRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:theme">@drawable/custom_radio_style</item>
+    </style>
+
+    <style name="Theme.MediaSavod.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MediaSavod.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MediaSavod.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

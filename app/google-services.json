@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "823932104847",
+    "firebase_url": "https://mediasavod-bb492.firebaseio.com",
+    "project_id": "mediasavod-bb492",
+    "storage_bucket": "mediasavod-bb492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823932104847:android:cd1e7b635b535ec693c0fa",
+        "android_client_info": {
+          "package_name": "tj.mediasavod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823932104847-ldcsu6l7p0r0hng3226u5i32jnrdiquk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIsSdfLWv4HxUXrDJLEM4sBvIpvjBmfec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823932104847-ldcsu6l7p0r0hng3226u5i32jnrdiquk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0F1E32</color>
+    <color name="purple_500">#07172C</color>
+    <color name="purple_700">#294F83</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#1C0808</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white1">#00FFFFFF</color>
+    <color name="logoColor">#3BA5F6</color>
+    <color name="currect_quiz">#1FED27</color>
+    <color name="error_quiz">#FF1616</color>
+
+
+
+</resources>
